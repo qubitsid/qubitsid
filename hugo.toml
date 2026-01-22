@@ -1,4 +1,4 @@
-baseURL = 'https://qubits.id/'
+baseURL = 'https://qubits.id'
 languageCode = 'id'
 title = 'Qubits.id - Belajar Quantum Computing'
 theme = 'PaperMod'
