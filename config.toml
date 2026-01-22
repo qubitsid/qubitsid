@@ -1,0 +1,66 @@
+baseURL = 'https://qubits.id/'
+languageCode = 'id'
+title = 'Qubits.id - Belajar Quantum Computing'
+theme = 'PaperMod'
+
+[params]
+  description = "Belajar quantum computing dari nol: vector, matrix, qubit, sampai quantum algorithms. Plus dokumentasi research QAOA untuk optimisasi satelit LEO."
+  author = "Babakuh"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+
+[params.homeInfoParams]
+  Title = "👋 Welcome to Qubits.id"
+  Content = """
+  **Belajar Quantum Computing dari Nol**
+  
+  Dari vector & matrix sampai quantum algorithms, kita belajar bareng.
+  
+  Dokumentasi research: QAOA untuk optimisasi penjadwalan satelit LEO.
+  """
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/yourusername"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/yourprofile"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  
+  [[menu.main]]
+    name = "Series"
+    url = "/series/"
+    weight = 3
+    
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.highlight]
+  style = "monokai"
+  lineNos = true
+  
+[taxonomies]
+  tag = "tags"
+  series = "series"
+theme = "PaperMod"
